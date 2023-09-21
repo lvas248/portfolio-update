@@ -17,11 +17,11 @@ function Projects(){
 
     return ( 
         <div id='projects'
-            className='pt-[10vh] relative'
+            className='py-[10vh] relative'
         >
             <div className='banner'>PROJECTS</div>
 
-            <div className='grid md:grid-cols-2 gap-2 px-2'>
+            <div className='grid lg:grid-cols-2 gap-2 px-2'>
                 { renderProjectCards }
             </div>
 

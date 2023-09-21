@@ -19,10 +19,10 @@ export const skills = [
     {id: 14, name: null, logo: rails, type: 'framework'},
     {id: 15, name: 'Ruby', logo: ruby, type:'language'},
     {id: 16, name: 'Tailwind', logo: tailwind, type: 'framework'},
-    {id: 17, name: null, logo: cloudinary, type:'other'},
-    {id: 18, name: null, logo: mapbox, type: 'other'},
-    {id: 19, name: 'HTML', logo:html, type: 'other'},
-    {id: 20, name: 'CSS', logo:css, type: 'other'},
+    {id: 17, name: null, logo: cloudinary, type:'api'},
+    {id: 18, name: null, logo: mapbox, type: 'api'},
+    {id: 19, name: 'HTML', logo:html, type: 'language'},
+    {id: 20, name: 'CSS', logo:css, type: 'language'},
 
 ]
 

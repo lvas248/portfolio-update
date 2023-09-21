@@ -1,10 +1,26 @@
+import { skills } from '../../Data/skillsData'
+import SkillCard from './SkillCard';
+
 function Skills() {
+
+    const renderSkills = skills.map( s => {
+        return <SkillCard key={s.id} skill={s} />
+    })
+
+
     return ( 
         <div id='skills'
-        className='pt-[10vh] relative h-screen'
+            className='py-[10vh] relative '
         >
             <div className='banner'>SKILLS</div>
 
+            <div className='p-[5vh] flex flex-wrap gap-4 place-content-center'>
+
+               
+                {renderSkills}
+                    
+            </div>
+         
         </div>
      );
 }
