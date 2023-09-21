@@ -1,12 +1,28 @@
-function ProjectDetail({toggle, project}) {
+function ProjectDetail({ selectedProjectId, updateSetSelectedProject_id, project}) {
+
     return ( 
     <div className={
-        `${!toggle && 'hidden'} h-[100%] w-[100%] bg-black opacity-[90%] absolute  top-0 z-10 text-white font-bold p-5 text-xs`
-        // `${!toggle && 'hidden'} fixed top-[50%]  left-[50%] -translate-y-[50%] -translate-x-[50%] h-[95vh] w-[95vw] z-30 bg-black opacity-80 text-white font-bold rounded-3xl`
-        
+        `${(selectedProjectId !== project.id) && 'hidden'} h-[100%] w-[100%] absolute top-0 text-white  p-5 text-xs`
         }>
-        <p>{project.title}</p>
-        <p>{project.description}</p>
+
+            <div className='absolute h-[100%] w-[100%] bg-black opacity-90 top-0 left-0'></div>
+
+            <div className='grid grid-cols-2 h-full'>
+                
+                <div className='grid place-content-center'>
+                    <img  className='m-auto bg-cover z-10' alt='project screenshot' src={project.images[0].image} />
+                </div>
+                
+                <div className='p-4 z-10 flex flex-col leading-3 justify-between font-semibold text-[8px] sm:text-xs'>
+                    <h3 className='text-xs sm:text-lg font-bold'>{project.title}</h3>
+                    <p>{project.description}</p>
+                    <button onClick={()=>console.log('clicked')} className='underline text-right'>see more</button>
+
+                </div>
+
+            </div>
+
+    
     </div> 
     );
 }

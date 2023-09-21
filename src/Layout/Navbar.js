@@ -1,15 +1,25 @@
+import scrollToSection from '../Helpers/scrollToSection'
+
 function Navbar(){
+
     return ( 
-        <div className='flex place-content-end h-[10vh] border-b border-2 pr-2'>
+        <div className='fixed w-full z-50  bg-white '>
 
-            <div className='flex gap-2 mt-[5vh]'>
+            <div className='flex justify-between items-center h-[10vh] border-b-2 pr-2max-w-[1050px] m-auto'>
+                <p className=' px-5 text-xl font-bold text-left'>Luis Vasquez</p>
+                
 
-                <button>HOME</button>
-                <button>SKILLS</button>
-                <button>PROJECTS</button>
-                <button>CONTACT</button>
-               
+                <div className='flex gap-2 mt-[5vh] text-xs px-5 font-bold place-content-end'>
+
+                    <button onClick={()=> scrollToSection('home')}>HOME</button>
+                    <button onClick={()=> scrollToSection('projects')}>PROJECTS</button>
+                    <button onClick={()=> scrollToSection('skills')}>SKILLS</button>
+                    <button onClick={()=> scrollToSection('contact')}>CONTACT</button>
+                
+                </div>
+
             </div>
+            
 
 
         </div> 

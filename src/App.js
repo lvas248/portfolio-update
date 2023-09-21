@@ -1,27 +1,21 @@
-import ProjectCard from "./Pages/Projects/ProjectCard";
-import { projects } from './Data'
 import Navbar from "./Layout/Navbar";
 import Home from "./Pages/Home/Home";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
-import Contact from './Pages/Projects/Projects'
+import Contact from './Pages/Contact/Contact'
 
 function App() {
 
-  const renderProjectCards = projects.map( p =>{
-    return <ProjectCard key={p.id} project={p} />
-  })
-
   return (
-    <div className="relative">
+    <div className="relative bg-[#f7f7f7] m-auto">
 
       <Navbar />
 
       <Home />
 
-      <Skills />
-
       <Projects />
+
+      <Skills />
 
       <Contact />
 

@@ -1,6 +1,9 @@
 function Skills() {
     return ( 
-        <div id='skills'>
+        <div id='skills'
+        className='pt-[10vh] relative h-screen'
+        >
+            <div className='banner'>SKILLS</div>
 
         </div>
      );

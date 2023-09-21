@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    .banner{
+        @apply sticky top-[10vh] text-[12px] mix-blend-difference text-white z-20 font-bold px-5 max-w-[1050px] m-auto
+    }
+}

@@ -1,37 +1,29 @@
 
-import ffImage from './Assets/proj_screenshots/Fetch/image1.png'
-import ffImage2 from './Assets/proj_screenshots/Fetch/image2.png'
-import ffImage3 from './Assets/proj_screenshots/Fetch/image3.png'
-import ffstock from './Assets/projcard_images/ff.png'
-
-import bwImage from './Assets/proj_screenshots/Bird/image1.png'
-import bwImage2 from './Assets/proj_screenshots/Bird/image2.png'
-import bwstock from './Assets/projcard_images/bw.jpg'
-
-import jobImage from './Assets/proj_screenshots/Jobs/image1.png'
-import jobImage2 from './Assets/proj_screenshots/Jobs/image2.png'
-import jobstock from './Assets/projcard_images/job.png'
-
-import portfolioImage from './Assets/proj_screenshots/Port/image1.png'
-
-import fmImage1 from './Assets/proj_screenshots/Market/image1.png'
-import fmImage2 from './Assets/proj_screenshots/Market/image2.png'
-import fmImage3 from './Assets/proj_screenshots/Market/image3.png'
-import fmstock from './Assets/projcard_images/fm.png'
 
 
-import rails from './Assets/update_logos/rails/rails_white_400.png'
-import react from './Assets/update_logos/react/react_white_400.png'
-import ruby from './Assets/update_logos/ruby/ruby_white-400.png'
-import javascript from './Assets/update_logos/javascript/javascript_white_400.png'
-import redux from './Assets/update_logos/redux/redux_white_400.png'
-import tailwind from './Assets/update_logos/tailwind/tailwindcss_white_400.png'
-import cloudinary from './Assets/update_logos/cloudinary/cloudinary_white_400.png'
-import mapbox from './Assets/update_logos/mapbox/mapbox_white_400.png'
-import css from './Assets/update_logos/CSS.png'
-import html from './Assets/update_logos/html.png'
+import ffImage from '../Assets/proj_screenshots/Fetch/image1.png'
+import ffImage2 from '../Assets/proj_screenshots/Fetch/image2.png'
+import ffImage3 from '../Assets/proj_screenshots/Fetch/image3.png'
+import ffstock from '../Assets/projcard_images/ff.png'
 
-const projects = [
+import bwImage from '../Assets/proj_screenshots/Bird/image1.png'
+import bwImage2 from '../Assets/proj_screenshots/Bird/image2.png'
+import bwstock from '../Assets/projcard_images/bw.jpg'
+
+import jobImage from '../Assets/proj_screenshots/Jobs/image1.png'
+import jobImage2 from '../Assets/proj_screenshots/Jobs/image2.png'
+import jobstock from '../Assets/projcard_images/job.png'
+
+// import portfolioImage from '../Assets/proj_screenshots/Port/image1.png'
+
+import fmImage1 from '../Assets/proj_screenshots/Market/image1.png'
+import fmImage2 from '../Assets/proj_screenshots/Market/image2.png'
+import fmImage3 from '../Assets/proj_screenshots/Market/image3.png'
+import fmstock from '../Assets/projcard_images/fm.png'
+
+
+
+export const projects = [
     {
         id: 0,
         title: 'Farmers Market',
@@ -49,7 +41,7 @@ const projects = [
                 image: fmImage3
             },
         ],
-        description: 'Farmers Market" is a fully functional frontend web app that lets you explore and purchase fresh produce with ease. Search through a variety of farm-fresh items, add them to your cart, and simulate the complete e-commerce experience.',
+        description: 'Farmers Market is a fully functional frontend web app that lets you explore and purchase fresh produce with ease. Search through a variety of farm-fresh items, add them to your cart, and simulate the complete e-commerce experience.',
         techs: ['React.js', 'HTML', 'TailwindsCSS'],
         git: 'https://github.com/lvas248/retail_template',
         demo: 'https://retail-6rlp.onrender.com'
@@ -131,21 +123,3 @@ const projects = [
     //     demo: 'luisvasquez.dev'            
     // }
 ]
-
-const skills = [
-    {id: 11, name: 'React.js', logo: react, type: 'framework'},
-    {id: 12, name: 'Javascript', logo: javascript, type:'language' },
-    {id: 13, name: 'Redux.js', logo: redux, type: 'framework'},
-    {id: 14, name: null, logo: rails, type: 'framework'},
-    {id: 15, name: 'Ruby', logo: ruby, type:'language'},
-    {id: 16, name: 'Tailwind', logo: tailwind, type: 'framework'},
-    {id: 17, name: null, logo: cloudinary, type:'other'},
-    {id: 18, name: null, logo: mapbox, type: 'other'},
-    {id: 19, name: 'HTML', logo:html, type: 'other'},
-    {id: 20, name: 'CSS', logo:css, type: 'other'},
-  
-
-
-]
-
-export { projects, skills };
