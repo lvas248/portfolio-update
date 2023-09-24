@@ -7,4 +7,19 @@
     .banner{
         @apply sticky top-[10vh] text-[12px] mix-blend-difference text-white z-20 font-bold px-5 max-w-[1050px] m-auto
     }
+    .contactItemsContainer{
+        @apply flex gap-1
+    }
+    .contactInfoItem{
+        @apply flex items-center gap-2 text-xs p-2 w-fit h-fit mx-auto
+    }
+    .contactIcon{
+        @apply h-[15px]
+    }
+    .emailerContainer{
+        @apply relative bg-white border-2 border-black flex flex-col  text-left gap-2 text-xs sm:text-lg m-auto w-[80vw] font-bold max-w-[570px] px-[20px] py-[20px]
+    }
+    .emailerInput{
+        @apply bg-[#f7f7f7] border-2 border-black p-1 font-light 
+    }
 }

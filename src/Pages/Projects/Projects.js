@@ -7,6 +7,8 @@ function Projects(){
     
     const [ selectedProjectId, setSelectedProjectId ] = useState('')
 
+    console.log(selectedProjectId)
+
     function updateSelectedProjectId(projectId){
         setSelectedProjectId(projectId)
     }

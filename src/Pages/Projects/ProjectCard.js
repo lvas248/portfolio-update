@@ -16,7 +16,7 @@ function ProjectCard({project, selectedProjectId, updateSelectedProjectId}) {
                 <p className='text-center absolute inset-0 flex items-center justify-center text-[40px] sm:text-[50px] lg:text-[60px] text-white font-bold  shadow-xl'>{project.title}</p>
                 
 
-                <ProjectDetail selectedProjectId={selectedProjectId} updateSelectedProjectId={selectedProjectId} project={project} />
+                <ProjectDetail selectedProjectId={selectedProjectId} updateSelectedProjectId={updateSelectedProjectId} project={project} />
 
             </div> 
 
