@@ -34,9 +34,9 @@ function EmailSender() {
                     company: '',
                     message: ''
                 })
-                // setTimeout(()=>{
-                //     setToggleNotify(false)
-                // },3000)
+                setTimeout(()=>{
+                    setToggleNotify(false)
+                },3000)
             }
         })
     }
@@ -45,6 +45,12 @@ function EmailSender() {
 
 
             <form onSubmit={sendEmail} className='emailerContainer '>
+
+                <div
+                    className={`bg-white absolute top-0 left-0 h-full w-full  text-black grid place-content-center animate-fade-in-fast ${ !toggleNotify && 'hidden'}`}
+                >
+                    <h1>email has been sent.</h1>
+                </div>
 
                 <label className=''>name</label>
                 <input className='emailerInput' required name='name' value={emailObj.name} onChange={updateEmailObj}/>
