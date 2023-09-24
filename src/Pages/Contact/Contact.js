@@ -11,9 +11,9 @@ function Contact() {
         >
             <p className='banner'>CONTACT</p>
 
-            <div className='flex flex-col gap-[5vh]'>
+            <div className='flex flex-col gap-[5vh] py-[5vh]'>
 
-                <div className='contactItemsContainer'
+                <div className='contactItemsContainer flex-col sm:flex-row'
                 >
                     <div className='contactInfoItem '>
                         <img className='contactIcon' alt='phone' src={phone}/>

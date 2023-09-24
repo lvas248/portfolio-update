@@ -9,7 +9,7 @@ function Navbar(){
                 <p className=' px-5 text-xl font-bold text-left'>Luis Vasquez</p>
                 
 
-                <div className='flex gap-2 mt-[5vh] text-xs px-5 font-bold place-content-end'>
+                <div className='flex gap-2 mt-[5vh] text-[8px] sm:text-xs px-5 font-bold place-content-end'>
 
                     <button onClick={()=> scrollToSection('home')}>HOME</button>
                     <button onClick={()=> scrollToSection('projects')}>PROJECTS</button>

@@ -4,6 +4,7 @@ import { useState } from 'react'
 function EmailSender() {
 
     const [ toggleNotify, setToggleNotify ] = useState(false)
+
     const [ emailObj, setEmailObj ] = useState({
         name: '',
         email: '',
@@ -33,9 +34,9 @@ function EmailSender() {
                     company: '',
                     message: ''
                 })
-                setTimeout(()=>{
-                    setToggleNotify(false)
-                },3000)
+                // setTimeout(()=>{
+                //     setToggleNotify(false)
+                // },3000)
             }
         })
     }

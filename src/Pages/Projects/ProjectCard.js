@@ -1,13 +1,12 @@
 import ProjectDetail from "./ProjectDetail";
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 
 function ProjectCard({project, selectedProjectId, updateSelectedProjectId}) {
 
  
     return ( 
 
-        <ScrollAnimation
-            animateIn='bounceInRight'
+        <div
         >
 
             <div onClick={()=>updateSelectedProjectId(project.id)} className='relative hover:cursor-pointer border-black border-2 max-w-[670px] m-auto animate-wiggle-in'>
@@ -20,7 +19,7 @@ function ProjectCard({project, selectedProjectId, updateSelectedProjectId}) {
 
             </div> 
 
-        </ScrollAnimation>
+        </div>
 
     );
 }
