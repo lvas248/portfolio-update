@@ -4,14 +4,23 @@
 import ffImage from '../Assets/proj_screenshots/Fetch/image1.png'
 import ffImage2 from '../Assets/proj_screenshots/Fetch/image2.png'
 import ffImage3 from '../Assets/proj_screenshots/Fetch/image3.png'
+import ffImage4 from '../Assets/proj_screenshots/Fetch/image4.png'
+import ffImage5 from '../Assets/proj_screenshots/Fetch/image5.png'
+
 import ffstock from '../Assets/projcard_images/ff.png'
 
 import bwImage from '../Assets/proj_screenshots/Bird/image1.png'
 import bwImage2 from '../Assets/proj_screenshots/Bird/image2.png'
+import bwImage3 from '../Assets/proj_screenshots/Bird/image3.png'
+import bwImage4 from '../Assets/proj_screenshots/Bird/image4.png'
+import bwImage5 from '../Assets/proj_screenshots/Bird/image5.png'
+
 import bwstock from '../Assets/projcard_images/bw.jpg'
 
 import jobImage from '../Assets/proj_screenshots/Jobs/image1.png'
 import jobImage2 from '../Assets/proj_screenshots/Jobs/image2.png'
+import jobImage3 from '../Assets/proj_screenshots/Jobs/image3.png'
+import jobImage4 from '../Assets/proj_screenshots/Jobs/image4.png'
 import jobstock from '../Assets/projcard_images/job.png'
 
 // import portfolioImage from '../Assets/proj_screenshots/Port/image1.png'
@@ -57,10 +66,20 @@ export const projects = [
                 id:0,
                 image: jobImage
             },
+            
             {
                 id:1,
                 image: jobImage2
+            },
+            {
+                id:2,
+                image: jobImage3
+            },
+            {
+                id:3,
+                image: jobImage4
             }
+            
         ],
         description: 'React-based application offering users a streamlined platform to explore, save, and manage NYC government job listings.',
         techs: ['React.js', 'Rails', 'Redux', 'TailwindCSS', 'Active Record' ],
@@ -82,6 +101,14 @@ export const projects = [
             {
                 id:2,
                 image: ffImage3
+            },         
+            {
+                id:3,
+                image: ffImage4
+            },         
+            {
+                id:4,
+                image: ffImage5
             },
     
         ],
@@ -98,13 +125,26 @@ export const projects = [
             {
                 id:0,
                 image: bwImage
-            },            {
+            },            
+            {
                 id:1,
                 image: bwImage2
             },
+            {
+                id:2,
+                image: bwImage3
+            },
+            {
+                id:3,
+                image: bwImage4
+            },
+            {
+                id:5,
+                image: bwImage5
+            },
         ],
         description: 'A diary app for bird enthusiasts to capture and document their bird sightings through photos and notes, creating a personalized collection of memorable encounters.',
-        techs: [ 'React.js', 'Rails', 'Reactstrap', 'Cloudinary' ],
+        techs: [ 'React.js', 'Javascript', 'Rails', 'Ruby', 'Reactstrap', 'Cloudinary' ],
         git: 'https://github.com/lvas248/bird_watchr',
         demo: 'https://bird-watcher-20dr.onrender.com'
     },
