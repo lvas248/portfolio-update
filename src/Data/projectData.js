@@ -24,29 +24,29 @@ import fmstock from '../Assets/projcard_images/fm.png'
 
 
 export const projects = [
-    {
-        id: 0,
-        title: 'Farmers Market',
-        card_image: fmstock,
-        images:[
-            {
-                id: 0,
-                image: fmImage1
-            },
-            {
-                id: 1,
-                image: fmImage2
-            },            {
-                id: 2,
-                image: fmImage3
-            },
-        ],
-        description: 'Farmers Market is a fully functional frontend web app that lets you explore and purchase fresh produce with ease. Search through a variety of farm-fresh items, add them to your cart, and simulate the complete e-commerce experience.',
-        techs: ['React.js', 'HTML', 'TailwindsCSS'],
-        git: 'https://github.com/lvas248/retail_template',
-        demo: 'https://retail-6rlp.onrender.com'
+    // {
+    //     id: 0,
+    //     title: 'Farmers Market',
+    //     card_image: fmstock,
+    //     images:[
+    //         {
+    //             id: 0,
+    //             image: fmImage1
+    //         },
+    //         {
+    //             id: 1,
+    //             image: fmImage2
+    //         },            {
+    //             id: 2,
+    //             image: fmImage3
+    //         },
+    //     ],
+    //     description: 'Farmers Market is a fully functional, full stack web app that lets you explore and purchase fresh produce with ease. Search through a variety of farm-fresh items, add them to your cart, and simulate the complete e-commerce experience.',
+    //     techs: ['React.js','Javascript', 'HTML', 'Rails', 'Ruby', 'TailwindsCSS'],
+    //     git: 'https://github.com/lvas248/retail_template',
+    //     demo: 'https://retail-6rlp.onrender.com'
 
-    },
+    // },
 
     {
         id: 1,

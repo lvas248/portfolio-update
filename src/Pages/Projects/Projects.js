@@ -7,8 +7,6 @@ function Projects(){
     
     const [ selectedProjectId, setSelectedProjectId ] = useState('')
 
-    console.log(selectedProjectId)
-
     function updateSelectedProjectId(projectId){
         setSelectedProjectId(projectId)
     }
@@ -23,7 +21,7 @@ function Projects(){
         >
             <div className='banner'>PROJECTS</div>
 
-            <div className='grid lg:grid-cols-2 gap-2 px-2'>
+            <div className='grid lg:grid-cols-2 gap-2 px-2 mt-[5vh]'>
                 { renderProjectCards }
             </div>
 

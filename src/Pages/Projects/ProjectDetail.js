@@ -1,6 +1,12 @@
+import { useHistory } from "react-router-dom";
 
 function ProjectDetail({ selectedProjectId, updateSelectedProjectId, project}) {
 
+    const history = useHistory()
+
+    function navigateTo(){
+        history.push(`/project/${project.id}`)
+    }
     // console.log(selectedProjectId)
     return ( 
 
@@ -23,7 +29,7 @@ function ProjectDetail({ selectedProjectId, updateSelectedProjectId, project}) {
                         <div className='py-8 px-4 z-10 flex flex-col leading-3 justify-between font-semibold text-[8px] sm:text-xs'>
                             <h3 className='text-xs sm:text-lg font-bold'>{project.title}</h3>
                             <p>{project.description}</p>
-                            <button onClick={()=>console.log('clicked')} className='underline text-right'>see more</button>
+                            <button onClick={navigateTo} className='underline text-right'>see more</button>
 
                         </div>
 

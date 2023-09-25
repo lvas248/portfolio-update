@@ -12,7 +12,7 @@ function Home() {
             
             <div className='h-[67vh] grid px-5'>
 
-                <h1 className='font-bold text-center text-[60px] sm:text-[70px] w-fit m-auto'>FULL STACK ENGINEER</h1>
+                <h1 className='font-bold text-center text-[60px] sm:text-[70px] w-fit m-auto'>FULL STACK SOFTWARE ENGINEER</h1>
 
                 <div className='homeIconContainer'>
                     <a href='https://github.com/lvas248'>
