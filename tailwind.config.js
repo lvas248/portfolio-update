@@ -92,6 +92,23 @@ module.exports = {
       riseIn:{
         '0%': { transform: 'translateY(10%)'},
         '100%': { transform: 'translateY(0)'}
+      },
+      rotateSlightly: {
+        '0%': { transform: 'rotate(0)'},
+        '25%': { transform: 'rotate(2deg)'},
+        '50%': { transform: 'rotate(0)'},
+        '75%': { transform: 'rotate(-2deg)'},
+        '100%':{ transform: 'rotate(0)'}
+      },
+
+      centerExpand:{
+        '0%': { transform: 'scale(1) translate(0%, 0%)'},
+        '100%': {transform: 'scale(1.1)', width: '90vw', height: '90vh'}
+      },
+      
+      grow:{
+        '0%': { transform: 'scale(1) '},
+        '100%': {transform: 'scale(1)', width: '90vw', height: '90vh'}
       }
 
 
@@ -137,7 +154,13 @@ module.exports = {
 
       'rise-in':'riseIn .5s ease-in forwards',
 
-      'wiggle-in':'wiggle 3s ease-in'
+      'wiggle-in':'wiggle 3s ease-in',
+
+      'rotate-slightly': 'rotateSlightly 400ms forwards',
+
+      'center-expand': 'centerExpand 1s forwards'
+
+
     },
   },
 },

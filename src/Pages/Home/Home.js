@@ -31,7 +31,7 @@ function Home() {
                 
                 <p className='text-center text-sm'>I construct end-to-end web applications that are dependable, scalable, and prioritize an exceptional user experience.</p>
             
-                <button onClick={()=>scrollToSection('contact')} className='border-2 border-black max-h-[150px] w-[67vw] max-w-[750px] bg-white mx-auto font-bold text-md'>GET IN TOUCH</button>
+                <button onClick={()=>scrollToSection('contact')} className='border-2 border-black max-h-[150px] w-[67vw] max-w-[750px] bg-white mx-auto font-bold text-md drop-shadow-xl'>GET IN TOUCH</button>
 
             </div>
 

@@ -13,7 +13,7 @@ function Contact() {
 
             <div className='flex flex-col gap-[5vh] py-[5vh]'>
 
-                <div className='contactItemsContainer flex-col sm:flex-row'
+                <div className='contactItemsContainer flex-col sm:flex-row font-bold'
                 >
                     <div className='contactInfoItem '>
                         <img className='contactIcon' alt='phone' src={phone}/>

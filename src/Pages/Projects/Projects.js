@@ -7,9 +7,12 @@ function Projects(){
     
     const [ selectedProjectId, setSelectedProjectId ] = useState('')
 
+    
+
     function updateSelectedProjectId(projectId){
         setSelectedProjectId(projectId)
     }
+  
 
     const renderProjectCards = projects.map( p =>{
         return <ProjectCard key={p.id} project={p} updateSelectedProjectId={updateSelectedProjectId} selectedProjectId={selectedProjectId} />
@@ -21,7 +24,7 @@ function Projects(){
         >
             <div className='banner'>PROJECTS</div>
 
-            <div className='grid lg:grid-cols-2 gap-2 px-2 mt-[5vh]'>
+            <div className='grid gap-3 px-2 mt-[5vh]'>
                 { renderProjectCards }
             </div>
 

@@ -3,7 +3,7 @@ import scrollToSection from '../Helpers/scrollToSection'
 function Navbar(){
 
     return ( 
-        <div className='fixed w-full z-50  bg-white '>
+        <div className='fixed w-full z-50  bg-white drop-shadow-xl '>
 
             <div className='flex justify-between items-center h-[10vh] border-b-2 pr-2max-w-[1050px] m-auto'>
                 <p className=' px-5 text-xl font-bold text-left'>Luis Vasquez</p>

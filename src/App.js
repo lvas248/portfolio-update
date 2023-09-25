@@ -13,28 +13,12 @@ function App() {
   return (
     <div className="relative bg-[#f7f7f7] m-auto">
 
-     
-
-      <Switch>
-
-        <Route path='/project/:projectId'>
-          <FullProjectDetail />
-        </Route>
-
-       <Route path='/'> 
-          <Navbar />
-          <Home />
-          <Projects />
-          <Skills />
-          <Contact />
-        </Route>
-
-
-
- 
-
-      </Switch>
-       
+      <Navbar />
+      <Home />
+      <Projects />
+      <Skills />
+      <Contact />       
+      
     </div>
   );
 }

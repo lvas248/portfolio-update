@@ -1,40 +1,44 @@
-import { useHistory } from "react-router-dom";
+import ImageGallery from "./ImageGallery";
 
-function ProjectDetail({ selectedProjectId, updateSelectedProjectId, project}) {
+function ProjectDetail({ selectedProjectId, project}) {
 
-    const history = useHistory()
 
-    function navigateTo(){
-        history.push(`/project/${project.id}`)
-    }
-    // console.log(selectedProjectId)
+
+    const renderTechs = project?.techs.map( t => {
+        return <p className='p-1 bg-white text-black w-fit text-[8px] font-bold' key={t}>{t}</p>
+    })
+
     return ( 
 
   
             <div 
 
                 className={
-                `${(selectedProjectId !== project.id) && 'hidden'} h-[100%] w-[100%] absolute top-0 text-white  p-5 text-xs animate-fade-in-fast drop-shadow-md`
+                `${(selectedProjectId !== project.id) && 'opacity-0'} transition-opacity duration-[1s] h-[100%] w-[100%] absolute top-0 text-white  p-5 text-xs drop-shadow-md hover:cursor-default`
                 }>
                     
 
-                    <div className='absolute h-[100%] w-[100%] bg-black opacity-90 top-0 left-0'></div>
-                    
-                    <div                
-                            className='grid grid-cols-2 h-full'>
-                        <div className='grid place-content-center'>
-                            <img  className='m-auto bg-cover z-10 border-2 border-white' alt='project screenshot' src={project.images[0].image} />
-                        </div>
-                        
-                        <div className='py-8 px-4 z-10 flex flex-col leading-3 justify-between font-semibold text-[8px] sm:text-xs'>
-                            <h3 className='text-xs sm:text-lg font-bold'>{project.title}</h3>
-                            <p>{project.description}</p>
-                            <button onClick={navigateTo} className='underline text-right'>see more</button>
+                    <div className='absolute h-[100%] w-[100%] bg-black top-0 left-0 p-8'>
+
+                        <ImageGallery images={project.images} />
+
+                        <div className='grid gap-4 mt-4'>
+                            <p className='font-bold text-lg'>{project.title}</p>   
+                            <p>{project.description}</p>        
+
+                            <div className='flex flex-wrap gap-2 '>
+                                {renderTechs}
+                            </div>
 
                         </div>
+
+                        <div className='underline font-bold mt-8 flex gap-2 place-content-end'>
+                            <a href={project.demo}>demo</a>
+                            <p href={project.git}>code</p>
+                       </div>
+
 
                     </div>
-
             
             </div> 
 
