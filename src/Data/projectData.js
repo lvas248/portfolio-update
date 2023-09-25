@@ -44,7 +44,7 @@ export const projects = [
     //     description: 'Farmers Market is a fully functional, full stack web app that lets you explore and purchase fresh produce with ease. Search through a variety of farm-fresh items, add them to your cart, and simulate the complete e-commerce experience.',
     //     techs: ['React.js','Javascript', 'HTML', 'Rails', 'Ruby', 'TailwindsCSS'],
     //     git: 'https://github.com/lvas248/retail_template',
-    //     demo: 'https://retail-6rlp.onrender.com'
+    //     demo: 'https://farmers-market-c6jl.onrender.com'
 
     // },
 
@@ -88,7 +88,7 @@ export const projects = [
         description: 'A GPS-based web app that helps NYC dog owners find nearby dog parks with ratings, feedback, and real-time occupancy data, ensuring enjoyable outings for their furry friends.',
         techs: ['React.js', 'Rails', 'Redux', 'Reactstrap', 'Mapbox' ],
         git: 'https://github.com/lvas248/FetchFinder',
-        demo: 'https://fetch-finder.onrender.com'            
+        demo: 'https://fetchfinder.onrender.com'            
     },        
     {
         id: 3,
@@ -106,7 +106,7 @@ export const projects = [
         description: 'A diary app for bird enthusiasts to capture and document their bird sightings through photos and notes, creating a personalized collection of memorable encounters.',
         techs: [ 'React.js', 'Rails', 'Reactstrap', 'Cloudinary' ],
         git: 'https://github.com/lvas248/bird_watchr',
-        demo: 'https://bird-watcher.onrender.com'
+        demo: 'https://bird-watcher-20dr.onrender.com'
     },
     // {
     //     id:4,
