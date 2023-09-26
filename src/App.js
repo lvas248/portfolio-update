@@ -3,8 +3,6 @@ import Home from "./Pages/Home/Home";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
 import Contact from './Pages/Contact/Contact'
-import { Switch, Route } from "react-router-dom";
-import FullProjectDetail from "./Pages/Projects/FullProjectDetail";
 
 function App() {
 
@@ -18,7 +16,7 @@ function App() {
       <Projects />
       <Skills />
       <Contact />       
-      
+
     </div>
   );
 }

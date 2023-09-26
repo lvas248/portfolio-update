@@ -6,7 +6,7 @@ import medium from '../../Assets/icons/icons8-medium-100.png'
 function Home() {
     return ( 
         <div id='home'
-            className='pt-[10vh]'
+            className='pt-[10vh] max-w-[1050px] m-auto'
         >
             <div className='banner'>HOME</div>
             

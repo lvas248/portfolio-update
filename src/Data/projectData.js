@@ -52,7 +52,7 @@ export const projects = [
         ],
         description: 'Farmers Market is a fully functional, front-end web app that lets you explore and purchase fresh produce with ease. Search through a variety of farm-fresh items, add them to your cart, and simulate the complete e-commerce experience.',
         techs: ['React.js','Javascript', 'HTML', 'TailwindsCSS', 'EmailJS'],
-        git: 'https://github.com/lvas248/retail_template',
+        git: '',
         demo: 'https://retail-6rlp.onrender.com'
 
     },
