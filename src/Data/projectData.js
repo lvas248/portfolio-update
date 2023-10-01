@@ -28,6 +28,10 @@ import jobstock from '../Assets/projcard_images/job.png'
 import fmImage1 from '../Assets/proj_screenshots/Market/image1.png'
 import fmImage2 from '../Assets/proj_screenshots/Market/image2.png'
 import fmImage3 from '../Assets/proj_screenshots/Market/image3.png'
+import fmImage4 from '../Assets/proj_screenshots/Market/image4.png'
+import fmImage5 from '../Assets/proj_screenshots/Market/image5.png'
+import fmImage6 from '../Assets/proj_screenshots/Market/image6.png'
+
 import fmstock from '../Assets/projcard_images/fm.png'
 
 
@@ -35,7 +39,7 @@ import fmstock from '../Assets/projcard_images/fm.png'
 export const projects = [
     {
         id: 0,
-        title: 'Farmers Market',
+        title: "Farmer's Market",
         card_image: fmstock,
         images:[
             {
@@ -48,12 +52,22 @@ export const projects = [
             },            {
                 id: 2,
                 image: fmImage3
+            },            {
+                id: 3,
+                image: fmImage4
+            },
+            {
+                id: 4,
+                image: fmImage5
+            },            {
+                id: 5,
+                image: fmImage6
             },
         ],
-        description: 'Farmers Market is a fully functional, front-end web app that lets you explore and purchase fresh produce with ease. Search through a variety of farm-fresh items, add them to your cart, and simulate the complete e-commerce experience.',
-        techs: ['React.js','Javascript', 'HTML', 'TailwindsCSS', 'EmailJS'],
-        git: '',
-        demo: 'https://retail-6rlp.onrender.com'
+        description: 'Farmers Market is a complete, full-stack, e-commerce web application, providing a lifelike online shopping experience for fresh produce.',
+        techs: ['React.js','Javascript', 'Rails', 'Ruby', 'HTML', 'TailwindsCSS', 'Geoapify'],
+        git: 'https://github.com/lvas248/farmers_market_revamp',
+        demo: 'https://farmers-market-c6jl.onrender.com'
 
     },
 

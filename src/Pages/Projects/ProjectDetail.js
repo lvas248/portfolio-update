@@ -12,7 +12,6 @@ function ProjectDetail({ selectedProjectId, project}) {
 
   
             <div 
-
                 className={
                 `${(selectedProjectId !== project.id) && 'opacity-0'} transition-opacity duration-500 h-[100%] w-[100%] absolute top-0 text-white  p-5 text-xs drop-shadow-md hover:cursor-default`
                 }>
