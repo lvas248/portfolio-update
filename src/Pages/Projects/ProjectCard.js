@@ -44,8 +44,8 @@ function ProjectCard({project, selectedProjectId, updateSelectedProjectId}){
                     </div>
 
                     <div className='underline font-bold my-8 px-4 flex gap-2 place-content-end'>
-                        <a className='hover:animate-scale-up' href={project.demo}>demo</a>
-                        <a className='hover:animate-scale-up' href={project.git}>code</a>
+                        <a className='hover:sm:animate-scale-up' href={project.demo}>demo</a>
+                        <a className='hover:sm:animate-scale-up' href={project.git}>code</a>
                     </div>
 
                     <p className='text-white text-[9px] text-right'>*demo may take a minute to spin up</p>

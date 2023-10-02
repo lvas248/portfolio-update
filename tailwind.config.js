@@ -126,7 +126,7 @@ module.exports = {
 
       'fade-in': 'fadeIn 2.5s forwards',
       'fade-in-fast': 'fadeIn .5s forwards',
-      'fade-in-slow': 'fadeSlow 3s forwards',
+      'fade-in-slow': 'fadeIn 3s forwards',
 
       'fade-out': 'fadeOut 0.75s forwards',
 

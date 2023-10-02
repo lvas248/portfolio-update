@@ -64,7 +64,7 @@ function EmailSender() {
                 <label className=''>message </label>
                 <textarea className='emailerInput h-[10vh]' required name='message' value={emailObj.message} onChange={updateEmailObj} />
 
-                <button className='underline hover:animate-scale-up'>Send Email</button>
+                <button className='underline hover:sm:animate-scale-up'>Send Email</button>
 
             </form> 
 

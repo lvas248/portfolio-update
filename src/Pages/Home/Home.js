@@ -16,15 +16,15 @@ function Home() {
 
                 <div className='homeIconContainer'>
                     <a href='https://github.com/lvas248'>
-                        <img className='homeIcon hover:animate-scale-large' alt='git' src={github}/>
+                        <img className='homeIcon hover:sm:animate-scale-large' alt='git' src={github}/>
                     </a>
 
                     <a href='https://www.linkedin.com/in/lvas248/'>
-                        <img className='homeIcon hover:animate-scale-large' alt='linkedin' src={linkedIn}/>
+                        <img className='homeIcon hover:sm:animate-scale-large' alt='linkedin' src={linkedIn}/>
                     </a>
 
                     <a href='https://medium.com/@lvas248'>
-                        <img className='homeIcon hover:animate-scale-large' alt='medium' src={medium}/>
+                        <img className='homeIcon hover:sm:animate-scale-large' alt='medium' src={medium}/>
                     </a>
 
                 </div>
