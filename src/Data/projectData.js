@@ -56,10 +56,11 @@ export const projects = [
             },            {
                 id: 3,
                 image: fmImage3
-            },            {
-                id: 4,
-                image: fmImage4
-            },
+            },            
+            // {
+            //     id: 4,
+            //     image: fmImage4
+            // },
             {
                 id: 5,
                 image: fmImage5

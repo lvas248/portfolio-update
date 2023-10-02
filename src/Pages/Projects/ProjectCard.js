@@ -29,7 +29,7 @@ function ProjectCard({project, selectedProjectId, updateSelectedProjectId}){
 
                 <ImageGallery images={project.images} cardSelected={cardSelected} toggleCardSelected={toggleCardSelected}/>
                 
-                <div className={`p-4 ${!cardSelected && 'hidden'}`}>
+                <div className={`p-4 text-sm ${!cardSelected && 'hidden'}`}>
 
                     <div className='grid gap-4 mt-4 m-auto'>
                        
