@@ -16,22 +16,22 @@ function Home() {
 
                 <div className='homeIconContainer'>
                     <a href='https://github.com/lvas248'>
-                        <img className='homeIcon' alt='git' src={github}/>
+                        <img className='homeIcon hover:animate-scale-large' alt='git' src={github}/>
                     </a>
 
                     <a href='https://www.linkedin.com/in/lvas248/'>
-                        <img className='homeIcon' alt='linkedin' src={linkedIn}/>
+                        <img className='homeIcon hover:animate-scale-large' alt='linkedin' src={linkedIn}/>
                     </a>
 
                     <a href='https://medium.com/@lvas248'>
-                        <img className='homeIcon' alt='medium' src={medium}/>
+                        <img className='homeIcon hover:animate-scale-large' alt='medium' src={medium}/>
                     </a>
 
                 </div>
                 
                 <p className='text-center text-sm'>I construct end-to-end web applications that are dependable, scalable, and prioritize an exceptional user experience.</p>
             
-                <button onClick={()=>scrollToSection('contact')} className='border-2 border-black max-h-[150px] w-[67vw] max-w-[750px] bg-white mx-auto font-bold text-md drop-shadow-xl'>GET IN TOUCH</button>
+                <button onClick={()=>scrollToSection('contact')} className='border-2 border-black max-h-[150px] w-[67vw] max-w-[750px] bg-white mx-auto font-bold text-md drop-shadow-xl hover:animate-scale-up'>GET IN TOUCH</button>
 
             </div>
 

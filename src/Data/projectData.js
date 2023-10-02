@@ -15,7 +15,7 @@ import bwImage3 from '../Assets/proj_screenshots/Bird/image3.png'
 import bwImage4 from '../Assets/proj_screenshots/Bird/image4.png'
 import bwImage5 from '../Assets/proj_screenshots/Bird/image5.png'
 
-import bwstock from '../Assets/projcard_images/bw.jpg'
+import bwstock from '../Assets/projcard_images/bw.png'
 
 import jobImage from '../Assets/proj_screenshots/Jobs/image1.png'
 import jobImage2 from '../Assets/proj_screenshots/Jobs/image2.png'
@@ -44,23 +44,27 @@ export const projects = [
         images:[
             {
                 id: 0,
-                image: fmImage1
+                image: fmstock
             },
             {
                 id: 1,
+                image: fmImage1
+            },
+            {
+                id: 2,
                 image: fmImage2
             },            {
-                id: 2,
+                id: 3,
                 image: fmImage3
             },            {
-                id: 3,
+                id: 4,
                 image: fmImage4
             },
             {
-                id: 4,
+                id: 5,
                 image: fmImage5
             },            {
-                id: 5,
+                id: 6,
                 image: fmImage6
             },
         ],
@@ -77,20 +81,25 @@ export const projects = [
         card_image: jobstock,
         images: [
             {
-                id:0,
+                id: 0,
+                image: jobstock
+            },
+
+            {
+                id:1,
                 image: jobImage
             },
             
             {
-                id:1,
+                id:2,
                 image: jobImage2
             },
             {
-                id:2,
+                id:3,
                 image: jobImage3
             },
             {
-                id:3,
+                id:4,
                 image: jobImage4
             }
             
@@ -107,21 +116,26 @@ export const projects = [
         images: [
             {
                 id:0,
-                image: ffImage
-            },            {
+                image: ffstock
+            },
+            {
                 id:1,
-                image: ffImage2
+                image: ffImage
             },            
             {
                 id:2,
+                image: ffImage2
+            },            
+            {
+                id:3,
                 image: ffImage3
             },         
             {
-                id:3,
+                id:4,
                 image: ffImage4
             },         
             {
-                id:4,
+                id:5,
                 image: ffImage5
             },
     
@@ -138,18 +152,22 @@ export const projects = [
         images:[
             {
                 id:0,
+                image: bwstock
+            },
+            {
+                id:1,
                 image: bwImage
             },            
             {
-                id:1,
+                id:2,
                 image: bwImage2
             },
             {
-                id:2,
+                id:3,
                 image: bwImage3
             },
             {
-                id:3,
+                id:4,
                 image: bwImage4
             },
             {

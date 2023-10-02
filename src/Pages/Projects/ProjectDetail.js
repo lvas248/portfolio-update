@@ -13,15 +13,15 @@ function ProjectDetail({ selectedProjectId, project}) {
   
             <div 
                 className={
-                `${(selectedProjectId !== project.id) && 'opacity-0'} transition-opacity duration-500 h-[100%] w-[100%] absolute top-0 text-white  p-5 text-xs drop-shadow-md hover:cursor-default`
+                    ` text-black  text-xs border-b-2 border-x-2 w-min`
                 }>
                     
 
-                    <div className='absolute h-[100%] w-[100%] bg-black top-0 left-0 p-8'>
+                    <div>
 
                         <ImageGallery images={project.images} />
 
-                        <div className='grid gap-4 mt-4'>
+                        <div className='grid gap-4 mt-4 w-[80%] m-auto'>
                             <p className='font-bold text-lg'>{project.title}</p>   
                             <p>{project.description}</p>        
 
@@ -31,7 +31,7 @@ function ProjectDetail({ selectedProjectId, project}) {
 
                         </div>
 
-                        <div className='underline font-bold mt-8 flex gap-2 place-content-end'>
+                        <div className='underline font-bold my-8 px-4 flex gap-2 place-content-end'>
                             <a href={project.demo}>demo</a>
                             <p href={project.git}>code</p>
                        </div>

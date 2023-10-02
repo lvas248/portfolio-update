@@ -52,8 +52,12 @@ module.exports = {
         '100%': { transform: 'translateX(-22vw)'},
       },
       scaleUp: {
-        '0%': { transform: 'scale(1)', opacity: '0'},
-        '100%': { transform: 'scale(1.2)', opacity: '1'},
+        '0%': { transform: 'scale(1)'},
+        '100%': { transform: 'scale(1.1)'},
+      },
+      scaleLarge: {
+        '0%': { transform: 'scale(1)'},
+        '100%': { transform: 'scale(1.3)'},
       },
       rotateIn:{
         '0%': { transform: 'rotate(0)'},
@@ -85,10 +89,7 @@ module.exports = {
         '80%': { transform: 'rotate(0)'},
         '100%': { transform: 'rotate(180deg)'},
       },
-      scaleLarge: {
-        '0%': { transform: 'scale(1)'},
-        '100%': { transform: 'scale(2)'},
-      },
+ 
       riseIn:{
         '0%': { transform: 'translateY(10%)'},
         '100%': { transform: 'translateY(0)'}
@@ -110,7 +111,6 @@ module.exports = {
         '0%': { transform: 'scale(1) '},
         '100%': {transform: 'scale(1)', width: '90vw', height: '90vh'}
       }
-
 
     },
 
@@ -150,15 +150,18 @@ module.exports = {
 
       'delayed-rotate':'delayedRotate 2s ease-out infinite',
 
-      'scale-large':'scaleLarge 200ms ease-out forwards',
-
       'rise-in':'riseIn .5s ease-in forwards',
 
       'wiggle-in':'wiggle 3s ease-in',
 
       'rotate-slightly': 'rotateSlightly 400ms forwards',
 
-      'center-expand': 'centerExpand 1s forwards'
+      'center-expand': 'centerExpand 1s forwards',
+
+      'scale-up': 'scaleUp 300ms forwards',
+
+      'scale-large': 'scaleLarge 300ms forwards'
+
 
 
     },
