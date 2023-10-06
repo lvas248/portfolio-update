@@ -7,7 +7,7 @@ import pin from '../../Assets/icons/icons8-region-100.png'
 function Contact() {
     return ( 
         <div id='contact'
-        className='pt-[10vh] relative h-screen '
+        className='pt-[10vh] relative h-screen max-w-[1050px] m-auto '
         >
             <p className='banner'>CONTACT</p>
 

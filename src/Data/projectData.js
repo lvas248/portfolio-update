@@ -28,7 +28,7 @@ import jobstock from '../Assets/projcard_images/job.png'
 import fmImage1 from '../Assets/proj_screenshots/Market/image1.png'
 import fmImage2 from '../Assets/proj_screenshots/Market/image2.png'
 import fmImage3 from '../Assets/proj_screenshots/Market/image3.png'
-import fmImage4 from '../Assets/proj_screenshots/Market/image4.png'
+// import fmImage4 from '../Assets/proj_screenshots/Market/image4.png'
 import fmImage5 from '../Assets/proj_screenshots/Market/image5.png'
 import fmImage6 from '../Assets/proj_screenshots/Market/image6.png'
 
