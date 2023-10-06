@@ -18,7 +18,7 @@ function Navbar(){
 
     return ( 
 
-        <div className='fixed w-full m-auto z-50 bg-white drop-shadow-sm' >
+        <div className={`fixed w-full m-auto z-50 bg-white drop-shadow-sm overflow-hidden`} >
 
             <div className={`flex flex-col sm:flex-row justify-between items-center max-w-[1050px] m-auto`}>
 
@@ -32,9 +32,10 @@ function Navbar(){
 
                 </div>
 
-                <div className={`text-xs w-full flex flex-col sm:flex-row justify-between ${!isOpen && 'hidden sm:flex flex-col'}  `}>
+                {/* <div className={`text-xs w-full flex flex-col sm:flex-row justify-between ${!isOpen && 'hidden sm:flex flex-col'}  `}> */}
+                <div className={`text-xs w-full flex flex-col sm:flex-row justify-between h-0 sm:h-fit ${ isOpen && 'h-[24vh]'} transform-h duration-300`}>
 
-                    <button name='home' className='navItem border-t' onClick={scrollTo}>HOME</button>
+                    <button name='home' className='navItem' onClick={scrollTo}>HOME</button>
                     <button name='projects' className='navItem' onClick={scrollTo}>PROJECTS</button>
                     <button name='skills' className='navItem' onClick={scrollTo}>SKILLS</button>
                     <button name='contact' className='navItem' onClick={scrollTo}>CONTACT</button>
