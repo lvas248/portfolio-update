@@ -21,7 +21,7 @@ function ProjectCard({project, selectedProjectId, updateSelectedProjectId}){
     return ( 
 
         <div
-            className={`relative drop-shadow-xl m-auto border-b-2 border-x-2 bg-black text-white overflow-hidden grid place-content-start h-[30vh] sm:h-[40vh] max-w-[546px] ${cardSelected && 'h-[80vh] sm:h-[75vh] '} transform-h duration-500`}
+            className={`relative drop-shadow-xl m-auto border-b-2 border-x-2 bg-black text-white overflow-hidden grid place-content-start h-[30vh] sm:h-[40vh] max-w-[546px] ${cardSelected && 'h-[80vh] sm:h-[75vh] '} transform-h duration-300`}
         >
                 
                 <button onClick={toggleCardSelected} className={`${cardSelected && 'hidden'} z-40 absolute flex text-center items-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 justify-center text-[40px] sm:text-[50px] lg:text-[60px] font-bold text-white w-fit `}>{project.title}</button>
