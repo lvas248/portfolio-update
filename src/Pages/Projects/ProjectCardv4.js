@@ -9,11 +9,11 @@ function ProjectCardv4({project}) {
 
         <img alt='project' src={project.images[0].image} />
         
-        <div className='absolute top-0 bg-cover bg-black h-full w-full opacity-40 group-hover:opacity-90 transform-opacity duration-[400ms]'></div>
+        <div className='absolute top-0 bg-cover bg-black h-full w-full opacity-40 group-hover:opacity-90 transform-opacity sm:duration-[400ms]'></div>
         
-        <h1 className='centerInRelativeCont font-bold text-white text-[40px] group-hover:opacity-0 transform-opacity duration-[400ms] whitespace-nowrap'>{project.title}</h1>
+        <h1 className='centerInRelativeCont font-bold text-white text-[40px] group-hover:opacity-0 transform-opacity sm:duration-[400ms] whitespace-nowrap'>{project.title}</h1>
         
-        <div className='centerInRelativeCont text-white font-bold opacity-0 group-hover:opacity-100 transform-opacity duration-[400ms] grid gap-5'>
+        <div className='centerInRelativeCont text-white font-bold opacity-0 group-hover:opacity-100 transform-opacity sm:duration-[400ms] grid gap-5'>
             
             <p className=' text-sm '>{project.description}</p>
 

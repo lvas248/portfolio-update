@@ -33,7 +33,7 @@ function Navbar(){
                 </div>
 
                 {/* <div className={`text-xs w-full flex flex-col sm:flex-row justify-between ${!isOpen && 'hidden sm:flex flex-col'}  `}> */}
-                <div className={`text-xs w-full flex flex-col sm:flex-row justify-between h-0 sm:h-fit ${ isOpen && 'h-[24vh]'} transform-h duration-300`}>
+                <div className={`text-xs w-full flex flex-col sm:flex-row justify-between h-0 sm:h-fit ${ isOpen && 'h-[30vh]'} transform-h duration-300`}>
 
                     <button name='home' className='navItem' onClick={scrollTo}>HOME</button>
                     <button name='projects' className='navItem' onClick={scrollTo}>PROJECTS</button>
