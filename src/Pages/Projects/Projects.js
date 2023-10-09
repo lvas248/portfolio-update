@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { projects }from '../../Data/projectData'
-import ProjectCard from './ProjectCard';
+import ProjectCardv4 from './ProjectCardv4';
 
 function Projects(){
 
@@ -12,19 +12,18 @@ function Projects(){
     function updateSelectedProjectId(projectId){
         setSelectedProjectId(projectId)
     }
-  
 
     const renderProjectCards = projects.map( p =>{
-        return <ProjectCard key={p.id} project={p} updateSelectedProjectId={updateSelectedProjectId} selectedProjectId={selectedProjectId} />
+        return <ProjectCardv4 key={p.id} project={p} updateSelectedProjectId={updateSelectedProjectId} selectedProjectId={selectedProjectId} />
     })
 
     return ( 
         <div id='projects'
-            className='py-[10vh] relative'
+            className='py-[10vh] relative max-w-[1050px] m-auto'
         >
             <div className='banner'>PROJECTS</div>
 
-            <div className='grid gap-3 px-2 mt-[5vh]'>
+            <div className='grid md:grid-cols-2 gap-3 px-2 mt-[5vh]'>
                 { renderProjectCards }
             </div>
 

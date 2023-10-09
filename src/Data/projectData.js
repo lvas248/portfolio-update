@@ -41,6 +41,7 @@ export const projects = [
         id: 0,
         title: "Farmer's Market",
         card_image: fmstock,
+        vid_url: 'https://res.cloudinary.com/dfbe9u9zm/video/upload/v1696630273/Screen_Recording_2023-10-06_at_5.18.16_PM_uoqvaa.mov',
         images:[
             {
                 id: 0,
@@ -80,6 +81,7 @@ export const projects = [
         id: 1,
         title: 'NYC Job Hunt',
         card_image: jobstock,
+        vid_url: 'https://res.cloudinary.com/dfbe9u9zm/video/upload/v1696712166/jobsvid_vz8gqv.mov',
         images: [
             {
                 id: 0,
@@ -112,8 +114,9 @@ export const projects = [
     },
     {
         id:2,
-        title: 'FetchFinder NYC',
+        title: 'Fetch Finder',
         card_image: ffstock,
+        vid_url: 'https://res.cloudinary.com/dfbe9u9zm/video/upload/v1696711457/ffVid_wkriid.mov',
         images: [
             {
                 id:0,
@@ -150,6 +153,7 @@ export const projects = [
         id: 3,
         title: 'BirdWatcher',
         card_image: bwstock,
+        vid_url:'https://res.cloudinary.com/dfbe9u9zm/video/upload/v1696712820/bwVid_y3zkoc.mov',
         images:[
             {
                 id:0,
@@ -180,19 +184,5 @@ export const projects = [
         techs: [ 'React.js', 'Javascript', 'Rails', 'Ruby', 'Reactstrap', 'Cloudinary' ],
         git: 'https://github.com/lvas248/bird_watchr',
         demo: 'https://bird-watcher-20dr.onrender.com'
-    },
-    // {
-    //     id:4,
-    //     title: 'My Portfolio Website',
-    //     images: [
-    //         {
-    //             id:0,
-    //             image: portfolioImage
-    //         }
-    //     ],
-    //     description: 'A place where you can explore my creative journey. Gain insight into my unique perspective by checking out the intersection of creativity and technical expertise showcased in my work.',
-    //     techs: ['React.js', 'TailswindCSS', 'EmailJS' ],
-    //     git: 'https://github.com/lvas248/my-portfolio',
-    //     demo: 'luisvasquez.dev'            
-    // }
+    }
 ]
