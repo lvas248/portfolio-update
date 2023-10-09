@@ -23,7 +23,7 @@ function Projects(){
         >
             <div className='banner'>PROJECTS</div>
 
-            <div className='grid md:grid-cols-2 gap-3 px-2 mt-[5vh]'>
+            <div className='grid md:grid-cols-2 gap-10 px-2 mt-[5vh]'>
                 { renderProjectCards }
             </div>
 

@@ -5,7 +5,7 @@ function ProjectCardv4({project}) {
     }) 
 
     return ( 
-    <div className='relative group max-w-[500px] m-auto '>
+    <div className='relative group max-w-[500px] m-auto drop-shadow-xl border-2 border-black'>
 
         <img alt='project' src={project.images[0].image} />
         
@@ -15,7 +15,7 @@ function ProjectCardv4({project}) {
         
         <div className='centerInRelativeCont text-white font-bold opacity-0 group-hover:opacity-100 transform-opacity duration-[400ms] grid gap-5'>
             
-            <p className='w-[75vw] sm:max-w-[400px] text-sm  sm:text-lg text-center'>{project.description}</p>
+            <p className=' text-sm '>{project.description}</p>
 
             <div className='flex flex-wrap gap-1 text-[10px] font-extralight m-auto'>
                 {renderTechs}

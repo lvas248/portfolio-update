@@ -107,7 +107,7 @@ export const projects = [
             }
             
         ],
-        description: 'React-based application offering users a streamlined platform to explore, save, and manage NYC government job listings.',
+        description: 'NYC Job Hunt is a React-based application offering users a streamlined platform to explore, save, and manage NYC government job listings.',
         techs: ['React.js', 'Rails', 'Redux', 'TailwindCSS', 'Active Record' ],
         git: 'https://github.com/lvas248/jobs',
         demo: 'https://jobs-b8os.onrender.com'            
@@ -144,7 +144,7 @@ export const projects = [
             },
     
         ],
-        description: 'A GPS-based web app that helps NYC dog owners find nearby dog parks with ratings, feedback, and real-time occupancy data, ensuring enjoyable outings for their furry friends.',
+        description: 'Fetch Finder is a GPS-based web app that helps NYC dog owners find nearby dog parks with ratings, feedback, and real-time occupancy data, ensuring enjoyable outings for their furry friends.',
         techs: ['React.js', 'Rails', 'Redux', 'Reactstrap', 'Mapbox' ],
         git: 'https://github.com/lvas248/FetchFinder',
         demo: 'https://fetchfinder.onrender.com'            
@@ -180,7 +180,7 @@ export const projects = [
                 image: bwImage5
             },
         ],
-        description: 'A diary app for bird enthusiasts to capture and document their bird sightings through photos and notes, creating a personalized collection of memorable encounters.',
+        description: 'Bird Watcher is a diary app for bird enthusiasts to capture and document their bird sightings through photos and notes, creating a personalized collection of memorable encounters.',
         techs: [ 'React.js', 'Javascript', 'Rails', 'Ruby', 'Reactstrap', 'Cloudinary' ],
         git: 'https://github.com/lvas248/bird_watchr',
         demo: 'https://bird-watcher-20dr.onrender.com'
