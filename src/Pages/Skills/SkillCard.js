@@ -5,9 +5,9 @@ function SkillCard({skill}) {
     
     return ( 
         <div
-            className='drop-shadow-md'
+            className='drop-shadow-md '
         >
-            <div className='bg-black p-3 h-[100px] min-w-[100px] sm:h-[200px] sm:min-w-[200px] w-fit grid place-content-center'>
+            <div className='bg-black p-3 h-[100px] min-w-[100px] sm:h-[200px] sm:min-w-[200px] w-fit grid place-content-center rounded-xl'>
                 <img className='h-[5vh]' alt='skill' src={skill.logo} />
                 <p className='text-white text-center'>{skill.name}</p>
             </div> 

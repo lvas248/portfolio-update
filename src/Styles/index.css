@@ -29,7 +29,7 @@
         @apply h-[30px]
     }
     .navItem{
-        @apply p-5 border-b sm:border-none font-bold hover:sm:underline
+        @apply p-5  border-t-2 sm:border-none font-bold hover:sm:underline my-auto
     }
     .centerInRelativeCont{
         @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2

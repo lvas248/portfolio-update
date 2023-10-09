@@ -44,7 +44,7 @@ function EmailSender() {
     return ( 
 
 
-            <form onSubmit={sendEmail} className='emailerContainer drop-shadow-xl'>
+            <form onSubmit={sendEmail} className='emailerContainer drop-shadow-xl rounded-xl'>
 
                 <div
                     className={`bg-white absolute top-0 left-0 h-full w-full  text-black grid place-content-center animate-fade-in-fast ${ !toggleNotify && 'hidden'}`}
