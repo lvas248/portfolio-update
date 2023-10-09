@@ -14,7 +14,7 @@ function Skills() {
         >
             <div className='banner'>SKILLS</div>
 
-            <div className='p-[5vh] flex flex-wrap gap-4 place-content-center'>
+            <div className='p-[5vh] max-w-[1050px] m-auto flex flex-wrap gap-4 place-content-center'>
 
                
                 {renderSkills}
