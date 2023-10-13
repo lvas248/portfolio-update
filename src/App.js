@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div className="relative bg-[#f7f7f7] m-auto">
+    <div className="relative bg-[#f7f7f7] h-full m-auto">
 
       <Navbar />
       <Home />

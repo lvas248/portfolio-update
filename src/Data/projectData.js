@@ -71,7 +71,7 @@ export const projects = [
             },
         ],
         description: 'Farmers Market is a complete, full-stack, e-commerce web application, providing a lifelike online shopping experience for fresh produce.',
-        techs: ['React.js','Javascript', 'Rails', 'Ruby', 'HTML', 'TailwindsCSS', 'Geoapify'],
+        techs: ['Javascript', 'React.js', 'Redux.js',  'Ruby', 'Rails', 'Active Record', 'HTML', 'TailwindsCSS', 'Geoapify'],
         git: 'https://github.com/lvas248/farmers_market_revamp',
         demo: 'https://farmers-market-c6jl.onrender.com'
 
