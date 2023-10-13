@@ -21,13 +21,16 @@ function ProjectCardv5({project}){
 
                 <p className='text-lg'>{project.title}</p>
 
-                {
+                <img onClick={toggleImageClick} className='grayscale hover:cursor-pointer hover:sm:animate-scale-up border-2 border-black drop-shadow-xl' alt={project.title} src={project.images[0].image} />
+
+
+                {/* {
                     imageClicked ? (
                         <video autoPlay muted controls className='grayscale m-auto border border-black' src={project.vid_url} poster={project.images[0].image} type='video/webm' />
                     ):(
                         <img onClick={toggleImageClick} className='grayscale hover:cursor-pointer hover:sm:animate-scale-up border-2 border-black drop-shadow-xl' alt={project.title} src={project.images[0].image} />
                     )
-                }
+                } */}
                 
                 
                 <div className='grid gap-2 p-2'>
