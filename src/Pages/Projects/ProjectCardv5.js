@@ -21,7 +21,7 @@ function ProjectCardv5({project}){
 
                 <p className='text-lg'>{project.title}</p>
 
-                <img onClick={toggleImageClick} className='grayscale hover:cursor-pointer hover:sm:animate-scale-up border-2 border-black drop-shadow-xl' alt={project.title} src={project.images[0].image} />
+                <img onClick={toggleImageClick} className='grayscale border-2 border-black drop-shadow-xl' alt={project.title} src={project.images[0].image} />
 
 
                 {/* {
