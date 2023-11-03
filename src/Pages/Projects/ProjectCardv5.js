@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Image from '../../Components/Image'
 
 function ProjectCardv5({project}){
 
@@ -6,35 +7,17 @@ function ProjectCardv5({project}){
         return <p key={t} className=''>{t}</p>
     })
 
-    const [ imageClicked, setImageClick ] = useState(false)
-
-    function toggleImageClick(){
-        setImageClick(!imageClicked)
-    }
-
-
-
     return ( 
-        <div className='p-4'>
 
             <div className=' sm:w-[67%] grid gap-1 m-auto p-2'>
 
-                <p className='text-lg'>{project.title}</p>
+                <p className='text-lg font-bold'>{project.title}</p>
 
-                <img onClick={toggleImageClick} className='grayscale border-2 border-black drop-shadow-xl' alt={project.title} src={project.images[0].image} />
-
-
-                {/* {
-                    imageClicked ? (
-                        <video autoPlay muted controls className='grayscale m-auto border border-black' src={project.vid_url} poster={project.images[0].image} type='video/webm' />
-                    ):(
-                        <img onClick={toggleImageClick} className='grayscale hover:cursor-pointer hover:sm:animate-scale-up border-2 border-black drop-shadow-xl' alt={project.title} src={project.images[0].image} />
-                    )
-                } */}
-                
-                
+                <Image alt='project' src={project.images[0].image} />
+                                
                 <div className='grid gap-2 p-2'>
-                    <div className='font-extralight text-[12px] flex flex-wrap gap-1 justify-between'>{renderTechs}</div>
+
+                    <div className='font-extralight text-[12px] flex flex-wrap gap-2 '>{renderTechs}</div>
                     <p className='text-sm'>{project.description}</p>
                    
                     <div id='projectDetails' 
@@ -45,8 +28,7 @@ function ProjectCardv5({project}){
                 </div>
 
             </div>
-            
-        </div>
+
      );
 }
 

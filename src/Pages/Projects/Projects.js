@@ -9,23 +9,18 @@ function Projects(){
     
     const [ selectedProjectId, setSelectedProjectId ] = useState('')
 
-    
-
-    function updateSelectedProjectId(projectId){
-        setSelectedProjectId(projectId)
-    }
-
-    // const renderProjectCards = projects.map( p =>{
-    //     return <ProjectCardv4 key={p.id} project={p} updateSelectedProjectId={updateSelectedProjectId} selectedProjectId={selectedProjectId} />
-    // })
+        function updateSelectedProjectId(projectId){
+            setSelectedProjectId(projectId)
+        }
 
         const renderProjectCards = projects.map( p =>{
         return <ProjectCardv5 key={p.id} project={p} updateSelectedProjectId={updateSelectedProjectId} selectedProjectId={selectedProjectId} />
     })
 
     return ( 
+
         <div id='projects'
-            className='py-[10vh] relative max-w-[1050px] m-auto'
+            className='py-[10vh] relative max-w-[1050px] m-auto '
         >
             <div className='banner'>PROJECTS</div>
 

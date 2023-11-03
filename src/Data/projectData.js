@@ -23,12 +23,10 @@ import jobImage3 from '../Assets/proj_screenshots/Jobs/image3.png'
 import jobImage4 from '../Assets/proj_screenshots/Jobs/image4.png'
 import jobstock from '../Assets/projcard_images/job.png'
 
-// import portfolioImage from '../Assets/proj_screenshots/Port/image1.png'
 
 import fmImage1 from '../Assets/proj_screenshots/Market/image1.png'
 import fmImage2 from '../Assets/proj_screenshots/Market/image2.png'
 import fmImage3 from '../Assets/proj_screenshots/Market/image3.png'
-// import fmImage4 from '../Assets/proj_screenshots/Market/image4.png'
 import fmImage5 from '../Assets/proj_screenshots/Market/image5.png'
 import fmImage6 from '../Assets/proj_screenshots/Market/image6.png'
 
@@ -39,6 +37,43 @@ import fmstock from '../Assets/projcard_images/fm.png'
 export const projects = [
     {
         id: 0,
+        title: 'BirdWatcher',
+        card_image: bwstock,
+        vid_url:'https://res.cloudinary.com/dfbe9u9zm/video/upload/v1696712820/bwVid_y3zkoc.mov',
+        images:[
+            {
+                id:0,
+                image: bwstock
+            },
+            {
+                id:1,
+                image: bwImage
+            },            
+            {
+                id:2,
+                image: bwImage2
+            },
+            {
+                id:3,
+                image: bwImage3
+            },
+            {
+                id:4,
+                image: bwImage4
+            },
+            {
+                id:5,
+                image: bwImage5
+            },
+        ],
+        description: 'Bird Watcher is a full stack, gps based, diary web app for bird enthusiasts looking for a better way to document their sightings.  It features a map function, which plots user bird sightings, providing a visual representation of your birdwatching experiences.',
+        techs: [ 'React.js', 'Redux.js', 'Javascript', 'Rails', 'Ruby', 'Tailwind CSS', 'Cloudinary API', 'Mapbox API', 'Geocoder API' ],
+        git: 'https://github.com/lvas248/b_watcher',
+        demo: 'https://b-watcher.onrender.com'
+    },
+
+    {
+        id: 1,
         title: "Farmer's Market",
         card_image: fmstock,
         vid_url: 'https://res.cloudinary.com/dfbe9u9zm/video/upload/v1696630273/Screen_Recording_2023-10-06_at_5.18.16_PM_uoqvaa.mov',
@@ -78,7 +113,7 @@ export const projects = [
     },
 
     {
-        id: 1,
+        id: 2,
         title: 'NYC Job Hunt',
         card_image: jobstock,
         vid_url: 'https://res.cloudinary.com/dfbe9u9zm/video/upload/v1696712166/jobsvid_vz8gqv.mov',
@@ -113,7 +148,7 @@ export const projects = [
         demo: 'https://jobs-b8os.onrender.com'            
     },
     {
-        id:2,
+        id:3,
         title: 'Fetch Finder',
         card_image: ffstock,
         vid_url: 'https://res.cloudinary.com/dfbe9u9zm/video/upload/v1696711457/ffVid_wkriid.mov',
@@ -148,41 +183,5 @@ export const projects = [
         techs: ['React.js', 'Rails', 'Redux', 'Reactstrap', 'Mapbox' ],
         git: 'https://github.com/lvas248/FetchFinder',
         demo: 'https://fetchfinder.onrender.com'            
-    },        
-    {
-        id: 3,
-        title: 'BirdWatcher',
-        card_image: bwstock,
-        vid_url:'https://res.cloudinary.com/dfbe9u9zm/video/upload/v1696712820/bwVid_y3zkoc.mov',
-        images:[
-            {
-                id:0,
-                image: bwstock
-            },
-            {
-                id:1,
-                image: bwImage
-            },            
-            {
-                id:2,
-                image: bwImage2
-            },
-            {
-                id:3,
-                image: bwImage3
-            },
-            {
-                id:4,
-                image: bwImage4
-            },
-            {
-                id:5,
-                image: bwImage5
-            },
-        ],
-        description: 'Bird Watcher is a diary app for bird enthusiasts to capture and document their bird sightings through photos and notes, creating a personalized collection of memorable encounters.',
-        techs: [ 'React.js', 'Javascript', 'Rails', 'Ruby', 'Reactstrap', 'Cloudinary' ],
-        git: 'https://github.com/lvas248/bird_watchr',
-        demo: 'https://bird-watcher-20dr.onrender.com'
-    }
+    }  
 ]
